@@ -1,0 +1,148 @@
+body {
+    background-color:darkgray;
+   font-family: sans-serif;
+   font-size: 80%;
+}
+
+header {
+    
+    
+    padding: 10px;
+    border: solid white;
+    margin:auto ;
+    background-color:white;
+    display:block;
+    width:75%;
+
+}
+p {
+    color:grey;
+}
+header img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    border-radius: 200px;
+    height:100px;
+    width:100px;
+    border:2px solid gray;
+}
+h1 {
+
+    color:red;
+    opacity: 0.65;
+    text-align:center;
+    font-family: verdana, serif;
+}
+h2 {
+    color:darkgray;
+    text-align: center;
+    font-size: 18px;
+
+}
+span {
+    padding:10px;
+    width: 50px;
+    background-color: red;
+    opacity:0.65;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:20%;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+
+
+}
+a:link {
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+   color :white;
+   text-decoration: none;
+
+}
+li a:visited{
+    color:lightgray;
+}
+
+
+ul  {
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    width:67%;
+    background-color:white;
+    margin-left:10%;
+    padding:45px;
+   
+ }
+ul > li
+    {
+    text-align:center;
+    padding:12px;
+    margin:auto;
+    width:75%;
+     
+    text-align: center;
+}
+li {
+    list-style: none;
+    font-size:135%;
+    font-family:Arial, Helvetica, sans-serif,;
+}
+main {
+    padding:50px;
+    margin:auto;
+    margin-top:10px;
+    width:65%;
+    background-color: white;
+}
+.odyssey {
+    margin-top: 70px;
+    
+}
+
+.odyssey img {
+    display:block;
+    float:left;
+    width:20%;
+    margin-right: 15px;
+    
+}
+.odyssey p {
+    
+ 
+}
+.hublot {
+    margin-top:100px;
+  
+  
+  
+}
+.hublot img {
+    display:block;
+     width:20%;
+    float:left;
+    margin-right:15px;
+    content:150px;
+    
+}
+.alien {
+    margin-top:100px;
+}
+.alien img {
+        display:block;
+         width:20%;
+        float:left;
+        margin-right:15px;
+        content:150px;
+        
+}
+
+
+
+
