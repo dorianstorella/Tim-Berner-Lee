@@ -1,7 +1,7 @@
 body {
-    background-color:darkgray;
-    opacity:1;
-    font-size: 80%;
+    background-color:lightgray;
+    
+    font-size: 70%;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     
@@ -13,8 +13,8 @@ header {
     padding: 10px;
     border: solid white;
     margin:auto ;
-    background-color:black;
-    opacity:0.75;
+    background-color:white;
+    
     display:block;
     width:75%;
 
@@ -27,29 +27,29 @@ header img {
     margin-left:auto;
     margin-right:auto;
     
-    border-radius: 200px;
-    height:150px;
+    border-radius: 100px;
+    height:100px;
     
     border:2px solid gray;
 }
 h1 {
 
-    color:red;
-    opacity: 0.9;
+    color:darkred;
+    opacity:0.7;
     text-align:center;
     font-family: verdana, serif;
 }
 h2 {
-    color:black;
+    color:darkgray;
     text-align: center;
-    font-size: 140%;
+    font-size: 250%;
 
 }
 span {
     padding:10px;
     width: 50px;
     background-color: red;
-    opacity:0.9;
+    
     margin-left:auto;
     margin-right:auto;
     display:block;
@@ -79,9 +79,7 @@ ul  {
     flex-direction:row;
     margin-top:10px;
     width:93%;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-color:white;
     margin:auto;
     padding:3%;
    
@@ -104,20 +102,18 @@ main {
     margin-top:10px;
     width:57%;
     height:120%;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    border: 4px solid black
+    background-color: white;
+    border: 4px solid white;
         }
 .odyssey {
     display:grid;
     grid-template-columns: auto  auto ;
     grid-gap:1px;
-    background-color:black;
+    background-color:white;
 }
 .odyssey > div {
-    background-color:black;
-    border:1px solid black;
+    background-color:white;
+    border:1px solid white;
     padding:1px;
     font-size:10px;
 }
@@ -130,11 +126,13 @@ main {
 }
 .odyssey h2 {
     font-size:200%;
-    color:green;
+    color:darkgray;
+    
 }
 .odyssey p {
-    color:green;
+    color:darkgray;
     font-size:180%;
+    text-align:center;
     
 }
 
@@ -142,12 +140,12 @@ main {
     display:grid;
     grid-template-columns:auto auto ;
     grid-gap:5px;
-    background-color:black;
+    background-color:white;
     margin-top:10px;
 }
 .hublot > div {
-    background-color:black;
-    border:1px solid black;
+    background-color:white;
+    border:1px solid white;
     padding:1px;
     font-size:10px;
 }
@@ -160,23 +158,25 @@ main {
      width:93%;
 }
 .hublot h2 {
-    color:green;
+    color:darkgray;
     font-size:200%;
+    
 }
 .hublot p {
-    color:green;
+    color:darkgray;
     font-size:165%;
+    text-align:center;
 }
 .alien {
     display:grid;
     grid-template-columns:auto auto ;
     grid-gap:5px;
-    background-color:black;
+    background-color:white;
     margin-top: 10px;
 }
 .alien > div {
-    background-color:black;
-    border:1px solid black;
+    background-color:white;
+    border:1px solid white;
     padding:0px;
     font-size:10px;
 }
@@ -188,12 +188,14 @@ main {
          width:95%;
 }
 .alien h2 {
-    color:green;
-    font-size:200%
+    color:darkgray;
+    font-size:200%;
+    
 }
 .alien p {
-    color:green;
-    font-size:165%
+    color:darkgray;
+    font-size:165%;
+    text-align:center;
 }
 
 
@@ -203,14 +205,13 @@ main {
 
 
 .tim {
-    background: linear-gradient(336deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(217deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-color:white;
 }
 .tim h1 {
     font-size:250%; 
     text-align:center;
-    color:black;
+    color:red;
+    opacity:0.75;
     
 }
 .tim img {
@@ -220,7 +221,7 @@ main {
 .inventor h2  {
     font-size:220%;
     text-align:center;
-    color:black;
+    color:darkgray;
     
     
     
@@ -228,15 +229,14 @@ main {
 .inventor p {
     font-size:200%;
     text-align:center;
-    color:black;
+    color:darkgray;
 }
 .inventor {
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);}
+    background-color:white;
+}
 .nav {
 
-background-color: black;
+background-color: white;
 padding:1%;
 width:74%;
 margin:auto;
